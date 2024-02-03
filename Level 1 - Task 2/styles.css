@@ -1,0 +1,64 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    background-color: #ABDCD6;
+    font-family: garamond;
+    background-image: url(body.jpeg);
+    line-height: 1.6;
+    text-size-adjust: 2.8;
+}
+
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ABDCD6;
+    background-image: url(body.jpeg);
+    color: #041f1e;
+    text-align: right;
+    padding: 2rem;
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    background-color: #FFFCEC;
+    
+    text-shadow: #333;
+    padding: 1rem 0;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+section {
+    padding: 1%;
+}
+
+/* Project Styles */
+.project {
+    margin-bottom: 2rem;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background-color: #FFF8DC;
+    
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
